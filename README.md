@@ -34,7 +34,7 @@ The app is fully deployed on **Streamlit Community Cloud**.
 - **Streamlit Community Cloud** – Deployment
 
 ---
-
+```
 ## 📂 Project Structure
 
 Job-Integrator-System/
@@ -60,6 +60,7 @@ Job-Integrator-System/
 
 
 ---
+```
 
 ## ⚙️ How It Works
 
