@@ -6,7 +6,7 @@ from utils.excel_export import save_to_excel
 st.set_page_config(page_title="Job Integrator", layout="wide")
 
 st.title("💼 Job Integrator System")
-st.subheader("Internshala Jobs")
+st.subheader("Internshala & Indeed Jobs")
 
 keyword = st.text_input("Job Keyword", "Data Analyst")
 pages = st.slider("Pages to scrape", 1, 5, 2)
@@ -28,7 +28,7 @@ if st.button("🔍 Search Jobs"):
         # 🔥 CREATE EXCEL IN MEMORY
         from io import BytesIO
         output = BytesIO()
-        with pd.ExcelWriter(output, engine="xlsxwriter") as writer:
+        with pd.ExcelWriter(output, engine="openpyxl") as writer:
             df.to_excel(writer, index=False, sheet_name="Jobs")
 
         output.seek(0)
