@@ -1,23 +1,4 @@
-# Python cache files
 __pycache__/
 *.pyc
-*.pyo
-
-# Virtual environment
-venv/
-env/
-.venv/
-
-# Excel / data files
-data/
-
-# IDE / editor files
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
+data/jobs.xlsx
+data/resume.pdf
