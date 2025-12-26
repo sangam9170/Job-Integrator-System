@@ -14,7 +14,7 @@ The app is fully deployed on **Streamlit Community Cloud**.
 ## 📌 Features
 
 - 🔍 Search internships by keyword (e.g., Data Analyst, Python, Web Development)
-- 📄 Scrapes real-time internship data from Internshala
+- 📄 Scrapes real-time internship data 
 - 📊 Displays results in a clean, interactive table
 - ⬇️ Download all job listings as an **Excel (.xlsx)** file
 - ☁️ Deployed and accessible online via Streamlit Cloud
@@ -40,32 +40,31 @@ The app is fully deployed on **Streamlit Community Cloud**.
 Job-Integrator-System/
 │
 ├── app/
-│ ├── main.py # Streamlit application entry point
-│ ├── cli.py # CLI-based job fetcher
+│ ├── main.py 
+│ ├── cli.py
 │ │
 │ ├── scrapers/
-│ │ └── internshala.py # Internshala scraper
+│ │ ├── internshala.py
+│ │ └── indeed.py 
 │ │
 │ ├── services/
-│ │ └── aggregator.py # Data aggregation logic
+│ │ └── aggregator.py 
 │ │
 │ └── utils/
-│ └── excel_export.py # Excel export utility
+│ └── excel_export.py 
 │
-├── data/ # Generated files (ignored in git)
-├── requirements.txt # Project dependencies
+├── data/
+├── requirements.txt 
 ├── .gitignore
 └── README.md
 
-yaml
-Copy code
 
 ---
 
 ## ⚙️ How It Works
 
 1. User enters a **job keyword** in the Streamlit interface  
-2. The application scrapes internship listings from Internshala  
+2. The application scrapes internship 
 3. Results are processed using Pandas and shown in the UI  
 4. Users can download the results as an Excel file  
 5. The app runs smoothly both **locally** and **on the cloud**
@@ -104,8 +103,6 @@ Automatic redeploy on updates to the main branch
 
 🚀 Future Enhancements
 Resume-based internship matching
-
-Skill extraction and ranking
 
 Filters (location, duration, stipend)
 
