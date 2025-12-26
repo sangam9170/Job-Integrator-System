@@ -1,6 +1,6 @@
 # Job Integrator System 🚀
 
-A web-based job aggregation application built using **Python** and **Streamlit** that scrapes internship listings from **Internshala**, displays them in an interactive UI, and allows users to **download results as an Excel file**.  
+A web-based job aggregation application built using **Python** and **Streamlit** that scrapes internship listings from **Internshala and Indeed**, displays them in an interactive UI, and allows users to **download results as an Excel file**.  
 The app is fully deployed on **Streamlit Community Cloud**.
 
 ---
