@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from app.services.aggregator import get_all_jobs
+from services.aggregator import get_all_jobs
+from utils.excel_export import save_to_excel 
 
 st.set_page_config(page_title="Job Integrator", layout="wide")
 

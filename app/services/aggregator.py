@@ -1,4 +1,5 @@
-from app.scrapers import indeed, internshala
+from scrapers import internshala, indeed
+
 
 def get_all_jobs(keyword, location, pages=3):
     jobs = []
