@@ -18,7 +18,7 @@ The app is fully deployed on **Streamlit Community Cloud**.
 - 📊 Displays results in a clean, interactive table
 - ⬇️ Download all job listings as an **Excel (.xlsx)** file
 - ☁️ Deployed and accessible online via Streamlit Cloud
-- 🧩 Modular and clean project structure
+
 
 ---
 
